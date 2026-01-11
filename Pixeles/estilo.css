@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ================= BODY ================= */
+
+body{
+    width: 1260px;
+    height: 545px;
+    margin: 50px auto;
+}
+
+/* ================= HEADER ================= */
+
+header{
+    height: 45px;
+    background-color: cadetblue;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    float: left;
+    padding: 8px 10px;
+}
+
+#boton3{
+    float: right;
+}
+
+/* ================= CAJA IZQUIERDA ================= */
+
+#primeraSeccion{
+    width: 800px;
+    height: 400px;
+    float: left;
+    margin-left: 20px;
+    padding: 30px 10px 0 10px;
+    font-size: 16px;
+}
+
+#primeraSeccion p{
+    margin-bottom: 4em;
+}
+
+/* ================= FORMULARIO ================= */
+
+form{
+    padding-left: 70px;
+}
+
+label{
+    display: block;
+    margin-bottom: 1em;
+}
+
+input[type="text"],
+input[type="email"]{
+    width: 500px;
+    padding-left: 10px;
+    margin-bottom: 1em;
+}
+
+input[type="submit"]{
+    display: block;
+    margin-top: 1em;
+    width: 150px;
+    height: 2em;
+    background-color: #D8D8D8;
+    border: none;
+}
+
+
+/* ================= CAJA DERECHA ================= */
+
+#segundaSeccion{
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-left: 20px;
+    padding-top: 50px;
+    background-color: lightblue;
+}
+
+#segundaSeccion img{
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* ================= FOOTER ================= */
+
+footer{
+    height: 100px;
+    background-color: darkgray;
+    clear: both;
+}
+
+footer p{
+    margin: 0;
+}
